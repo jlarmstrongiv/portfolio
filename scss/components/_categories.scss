@@ -21,9 +21,13 @@
   justify-content: space-around;
 }
 .card__icon-container {
+  cursor: pointer;
   flex: 1 1 34%; // min-width: 100px;
   margin: 16px;
   text-align: center;
+  &:focus {
+    outline: 2px solid $outline;
+  }
 }
 .card__icon {
   max-width: 64px;
@@ -35,6 +39,7 @@
 .card__description {
   padding-top: 15px;
   font-family: $font-body;
+  line-height: 19px;
 }
 .card__description--single-line {
   padding-top: 20px;

@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/.nojekyll": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.nojekyll",
+		"oF": 0
+		},
 	"\/css\/base.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1153,41 +1159,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icons\/24\/arrows-24px-glyph-1_bold-left.svg": {
+	"\/icons\/24\/design-24px-glyph_compass.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/icons\/24\/arrows-24px-glyph-1_bold-left.svg",
+		"oAP": "\/icons\/24\/design-24px-glyph_compass.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icons\/24\/arrows-24px-glyph-1_bold-right.svg": {
+	"\/icons\/24\/design-24px-glyph_window-dev.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/icons\/24\/arrows-24px-glyph-1_bold-right.svg",
+		"oAP": "\/icons\/24\/design-24px-glyph_window-dev.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icons\/24\/ui-24px-glyph-1_bold-remove.svg": {
+	"\/icons\/24\/ui-24px-glyph-1_database.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/icons\/24\/ui-24px-glyph-1_bold-remove.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/icons\/24\/ui-24px-glyph-1_email-83.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/icons\/24\/ui-24px-glyph-1_email-83.svg",
+		"oAP": "\/icons\/24\/ui-24px-glyph-1_database.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1198,6 +1194,66 @@
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/24\/ui-24px-glyph-2_menu-bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/arrows-32px-glyph-1_bold-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/arrows-32px-glyph-1_bold-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/arrows-32px-glyph-1_bold-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/arrows-32px-glyph-1_bold-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/design-32px-glyph_compass.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/design-32px-glyph_compass.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/design-32px-glyph_window-dev.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/design-32px-glyph_window-dev.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/ui-32px-glyph-1_bold-remove.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/ui-32px-glyph-1_bold-remove.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/32\/ui-32px-glyph-1_database.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/32\/ui-32px-glyph-1_database.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1238,6 +1294,16 @@
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/64\/arrows-64px-glyph-1_share-66.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/64\/business-64px-glyph_goal-64.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/64\/business-64px-glyph_goal-64.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1337,6 +1403,12 @@
 		"oAP": "\/kit\/_categories.html",
 		"oF": 0
 		},
+	"\/kit\/_lightbox.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_lightbox.html",
+		"oF": 0
+		},
 	"\/kit\/_scripts.kit": {
 		"ft": 2048,
 		"oA": 1,
@@ -1371,6 +1443,60 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/kit\/head\/_style.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_cedc.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_cedc.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_chronicle.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_chronicle.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_co-curricular.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_co-curricular.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_freelance.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_freelance.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_incsape.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_incsape.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_iron-yard.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_iron-yard.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_passion-projects.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_passion-projects.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_skills.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_skills.html",
+		"oF": 0
+		},
+	"\/kit\/lightboxes\/_upload-script.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/lightboxes\/_upload-script.html",
 		"oF": 0
 		},
 	"\/kit\/samples\/_favicon-sample.kit": {
@@ -1430,6 +1556,19 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/scss\/_general.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_general.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/_variables.scss": {
 		"aP": 0,
@@ -1509,6 +1648,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/components\/_lightbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/components\/_lightbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/components\/_sidebar.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1557,19 +1709,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/fonts\/_woodfordbourne.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/general.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/general.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

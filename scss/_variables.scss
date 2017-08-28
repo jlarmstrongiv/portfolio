@@ -5,6 +5,7 @@ $white: #FFFFFF;
 $dark-grey: #3D3B37;
 $medium-grey: #64625F;
 $light-grey: #E5E2DD;
+$outline: #FDD172; // see ::selection in reset-custom
 $gradient: linear-gradient(221.24deg, #FAE298 0%, #FFB64F 100%);
 
 $corner: 3px;
@@ -17,3 +18,5 @@ $bp-tablet: 620px;
 $bp-tablet-text: 550px;
 
 $bp-desktop: 1200px;
+
+$bp-lightbox: 800px;

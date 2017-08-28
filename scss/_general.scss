@@ -60,3 +60,15 @@ p {
   line-height: 25px;
   padding: 12px 0;
 }
+@media (min-width: $bp-tablet) {
+  h2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  p,
+  ul,
+  li {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
