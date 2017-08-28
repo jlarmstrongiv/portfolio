@@ -1,0 +1,28 @@
+.footer__innerwrapper {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  padding: 12px;
+  max-width: $bp-tablet;
+  margin: 0 auto;
+}
+.footer__copyright {
+  font-family: $font-headline;
+  font-weight: 700;
+  font-size: 16px;
+  color: $medium-grey;
+  margin-bottom: 8px;
+}
+.footer__slogan {
+  font-family: $font-headline;
+  font-weight: 400;
+  font-size: 16px;
+  color: $medium-grey;
+}
+@media (min-width: $bp-tablet) {
+  .footer__innerwrapper {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 6px;
+  }
+}

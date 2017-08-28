@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'gfs_didot';
+    src: url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.eot');
+    src: url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.woff2') format('woff2'),
+         url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.woff') format('woff'),
+         url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.ttf') format('truetype'),
+         url('webfonts/gfsdidot/gfsdidot_regular/gfsdidot-webfont.svg#gfs_didotregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gfs_didot';
+    src: url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.eot');
+    src: url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.woff2') format('woff2'),
+         url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.woff') format('woff'),
+         url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.ttf') format('truetype'),
+         url('webfonts/gfsdidot/gfsdidot_italic/gfsdidotitalic-webfont.svg#gfs_didotitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'gfs_didot';
+    src: url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.eot');
+    src: url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.woff2') format('woff2'),
+         url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.woff') format('woff'),
+         url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.ttf') format('truetype'),
+         url('webfonts/gfsdidot/gfsdidot_bold/gfsdidotbold-webfont.svg#gfs_didotbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gfs_didot';
+    src: url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.eot');
+    src: url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.woff2') format('woff2'),
+         url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.woff') format('woff'),
+         url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.ttf') format('truetype'),
+         url('webfonts/gfsdidot/gfsdidot_bolditalic/gfsdidotbolditalic-webfont.svg#gfs_didotbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}

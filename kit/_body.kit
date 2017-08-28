@@ -1,0 +1,62 @@
+<div class="wrapper">
+  <header class="header border-bottom hide-on-desktop">
+    <div class="header__innerwrapper">
+      <h1 class="header__name">Jake Armstrong</h1>
+      <nav class="hide-on-mobile">
+        <ul class="header-nav">
+          <a class="header-nav__item" href="#about"><li>About Me</li></a><span class="header-nav__midpoint">·</span>
+          <a class="header-nav__item" href="#skills"><li>Skills</li></a><span class="header-nav__midpoint">·</span>
+          <a class="header-nav__item" href="#projects"><li>Projects</li></a><span class="header-nav__midpoint">·</span>
+          <a class="header-nav__item" href="#organizations"><li>Organizations</li></a>
+        </ul>
+      </nav>
+      <amp-img
+        class="header__sidebar-open show-on-mobile"
+        src="icons/24/ui-24px-glyph-2_menu-bold.svg"
+        width="24"
+        height="24"
+        alt="toggle sidebar"
+        on="tap:sidebar.toggle"
+        role="button"
+        tabindex="0"></amp-img>
+    </div>
+  </header>
+  <section class="info">
+    <div class="info__name-wrapper border-bottom show-on-desktop">
+      <h1 class="info__name">Jake Armstrong</h1>
+    </div>
+    <div class="info__innerwrapper">
+      <amp-img
+        class="info__profile-pic circle"
+        src="opimg/jake-150w@2x.jpg"
+        srcset="opimg/jake-150w@2x.jpg 300w, opimg/jake-150w.jpg 150w, opimg/jake-115w@2x.jpg 230w, opimg/jake-115w.jpg 115w"
+        width="300"
+        height="300"
+        layout="responsive"></amp-img>
+      <p id="about">It’s Jake from State Farm. And yes, I’m wearing khakis. I am majoring in Communications with a minor in Brand Communications, at Clemson’s Calhoun Honors College.</p>
+      <h2 class="info__heading">I am an aspiring<br>UX &amp; UI Designer<br>and Developer</h2>
+      <p>I love being able to sit down at my computer and create just about anything. From solving usability problems to debugging code, I enjoy the challenges, knowledge, and successes that come with each new project. </p>
+      <h2 class="info__heading">Reach out</h2>
+      <p>Whether you have a new opportunity or a shared passion, I would love to hear from you.</p>
+      <div class="social info__social">
+        <!-- @include "social" -->
+      </div>
+    </div>
+    <div class="info__spacer"></div>
+    <div class="footer show-on-desktop border-top">
+      <div class="footer__innerwrapper">
+        <small class="footer__copyright">© Jake Armstrong</small>
+        <small class="footer__slogan">// hand-crafted code</small>
+      </div>
+    </div>
+  </section>
+  <!-- @include "categories" -->
+  <footer class="footer hide-on-desktop">
+    <div class="footer__innerwrapper">
+      <small class="footer__copyright">© Jake Armstrong</small>
+      <small class="footer__slogan">// hand-crafted code</small>
+    </div>
+  </footer>
+</div>
+
+<!-- @import "sidebar" -->

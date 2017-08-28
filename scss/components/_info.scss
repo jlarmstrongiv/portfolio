@@ -1,0 +1,47 @@
+.info__innerwrapper {
+  padding: 16px;
+  max-width: $bp-tablet-text;
+  margin: 0 auto;
+}
+// Fix for block quote centering
+.info__innerwrapper {
+  text-align: center;
+  p {
+    text-align: left;
+  }
+}
+.info__profile-pic {
+  box-shadow: $box-shadow-two;
+  width: 115px;
+  height: 115px;
+  display: inline-block;
+  margin-top: 6px;
+}
+.info__heading {
+  display: inline-block;
+  text-align: left;
+}
+.info__social {
+  padding: 10px 0 20px 0;
+}
+.info__name-wrapper {
+  height: 55.5px;
+  padding-top: 19.5px;
+}
+.info__name {
+  font-family: $font-headline;
+  color: $dark-grey;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.info__spacer {
+  flex: 1 1 auto;
+}
+@media (min-width: $bp-desktop) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+}

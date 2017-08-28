@@ -1,0 +1,60 @@
+<amp-sidebar
+  id="sidebar"
+  class="sidebar"
+  layout="nodisplay"
+  side="right">
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav__item border-bottom" href="#about">
+      <amp-img
+        class="sidebar-nav__icon"
+        src="icons/16/users-16px_single-01.svg"
+        width="12"
+        height="12"
+        layout="fixed"></amp-img>
+      <p class="sidebar-nav__text">About Me</p>
+    </a>
+    <a class="sidebar-nav__item border-bottom" href="#skills">
+      <amp-img
+        class="sidebar-nav__icon"
+        src="icons/16/business-16px_goal-64.svg"
+        width="12"
+        height="12"
+        layout="fixed"></amp-img>
+      <p class="sidebar-nav__text">Skills</p>
+    </a>
+    <a class="sidebar-nav__item border-bottom" href="#projects">
+      <amp-img
+        class="sidebar-nav__icon"
+        src="icons/16/projects-icon-edit-dark-grey.svg"
+        width="12"
+        height="12"
+        layout="fixed"></amp-img>
+      <p class="sidebar-nav__text">Projects</p>
+    </a>
+    <a class="sidebar-nav__item border-bottom" href="#organizations">
+      <amp-img
+        class="sidebar-nav__icon"
+        src="icons/16/users-16px_multiple-11.svg"
+        width="12"
+        height="12"
+        layout="fixed"></amp-img>
+      <p class="sidebar-nav__text">Organizations</p>
+    </a>
+    <div class="sidebar-nav__spacer"></div>
+    <!-- <p class="sidebar-nav__text sidebar-nav__text--centered">Reach Out</p> -->
+    <div class="social sidebar-nav__social">
+      <!-- @include "social" -->
+    </div>
+    <a class="sidebar-nav__item border-top"
+    alt="close sidebar"
+    on="tap:sidebar.close"
+    role="button"
+    tabindex="0">
+    <amp-img class="amp-close-image sidebar-nav__icon"
+      src="icons/16/arrows-16px-1_bold-right.svg"
+      width="12"
+      height="12"></amp-img>
+      <p class="sidebar-nav__text">Hide Menu</p>
+    </a>
+  </nav>
+</amp-sidebar>
