@@ -44,7 +44,7 @@
   padding-top: 20px;
 }
 .lightbox__icon {
-  max-width: 64px;
+  max-height: 64px;
   margin: 0 auto 20px auto;
 }
 .lightbox__title {
@@ -59,6 +59,9 @@
 .lightbox__subtitle {
   margin: 15px 0 10px 0;
   flex: 1 1 auto;
+}
+.lightbox__subtitle--no-icon {
+  margin-left: 16px;
 }
 .lightbox__subicon {
   margin: 0 16px;
@@ -115,6 +118,9 @@
   .lightbox__subicon {
     width: 32px;
     margin: 0 32px;
+  }
+  .lightbox__subtitle--no-icon {
+    margin-left: 32px;
   }
   .lightbox__textwrapper {
     padding: 32px;

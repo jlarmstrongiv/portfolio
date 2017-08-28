@@ -4,6 +4,80 @@
     on="tap:lb-co-curricular.close"
     role="button"
     tabindex="0">
-    <h1>Co-Curricular</h1>
+    <!-- Start Inside Lightbox -->
+    <div class="lightbox__close-wrapper"
+      on="tap:lb-co-curricular.close">
+    </div>
+    <div class="lightbox__content-wrapper">
+      <div class="lightbox__close-spacer"
+        on="tap:lb-co-curricular.close"></div>
+      <div class="lightbox__content">
+        <div class="lightbox__card lightbox__card--icon">
+          <amp-img
+            class="lightbox__icon"
+            src="icons/64/education-64px-glyph_notepad.svg"
+            width="64"
+            height="64"
+            layout="responsive"></amp-img>
+          <h2 class="lightbox__title border-top">Projects</h2>
+        </div>
+        <!-- Description Start -->
+        <div class="lightbox__card">
+          <div class="lightbox__subtitle-wrapper border-bottom">
+            <amp-img
+              class="lightbox__subicon"
+              src="icons/24/design-24px-glyph_tablet-mobile.svg"
+              width="64"
+              height="64"
+              layout="responsive"></amp-img>
+            <h2 class="lightbox__subtitle">Co-curricular Websites</h2>
+          </div>
+          <div class="lightbox__textwrapper">
+            <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
+            <ul>
+              <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
+                <li>List Item</li>
+              </ul>
+              <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
+                <li>List Item</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <!-- Description End -->
+      </div>
+      <div class="lightbox__close-spacer"
+        on="tap:lb-co-curricular.close"></div>
+    </div>
+    <div class="lightbox__controls">
+      <div class="lightbox__controls-button"
+        on="tap:lb-co-curricular.close,lb-upload-script">
+        <amp-img
+          class="lightbox__controls-icon"
+          src="icons/32/arrows-32px-glyph-1_bold-left.svg"
+          width="64"
+          height="64"
+          layout="responsive"></amp-img>
+      </div>
+      <div class="lightbox__controls-button"
+        on="tap:lb-co-curricular.close">
+        <amp-img
+          class="lightbox__controls-icon"
+          src="icons/32/ui-32px-glyph-1_bold-remove.svg"
+          width="64"
+          height="64"
+          layout="responsive"></amp-img>
+      </div>
+      <div class="lightbox__controls-button"
+        on="tap:lb-co-curricular.close,lb-passion-projects">
+        <amp-img
+          class="lightbox__controls-icon"
+          src="icons/32/arrows-32px-glyph-1_bold-right.svg"
+          width="64"
+          height="64"
+          layout="responsive"></amp-img>
+      </div>
+    </div>
+    <!-- End Inside Lightbox -->
   </div>
 </amp-lightbox>

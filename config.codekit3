@@ -83,6 +83,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/design-drafts\/exports\/clipboard-icon-edit-64.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/design-drafts\/exports\/clipboard-icon-edit-64.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/design-drafts\/exports\/email-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1129,11 +1139,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icons\/16\/projects-icon-edit-dark-grey.svg": {
+	"\/icons\/16\/business-16px_notes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/icons\/16\/projects-icon-edit-dark-grey.svg",
+		"oAP": "\/icons\/16\/business-16px_notes.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1159,11 +1169,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/icons\/24\/arrows-24px-glyph-1_share-66.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/arrows-24px-glyph-1_share-66.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/24\/business-24px-glyph_handshake.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/business-24px-glyph_handshake.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/icons\/24\/design-24px-glyph_compass.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/24\/design-24px-glyph_compass.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/24\/design-24px-glyph_tablet-mobile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/design-24px-glyph_tablet-mobile.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1179,11 +1219,51 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/icons\/24\/education-24px-glyph_book-bookmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/education-24px-glyph_book-bookmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/24\/text-24px-glyph_tracking.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/text-24px-glyph_tracking.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/24\/travel-24px-glyph_church.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/travel-24px-glyph_church.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/icons\/24\/ui-24px-glyph-1_database.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/24\/ui-24px-glyph-1_database.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/24\/ui-24px-glyph-1_edit-74.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/24\/ui-24px-glyph-1_edit-74.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1219,41 +1299,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/icons\/32\/design-32px-glyph_compass.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/icons\/32\/design-32px-glyph_compass.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/icons\/32\/design-32px-glyph_window-dev.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/icons\/32\/design-32px-glyph_window-dev.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/icons\/32\/ui-32px-glyph-1_bold-remove.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/32\/ui-32px-glyph-1_bold-remove.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/icons\/32\/ui-32px-glyph-1_database.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/icons\/32\/ui-32px-glyph-1_database.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1349,6 +1399,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/icons\/64\/education-64px-glyph_notepad.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/64\/education-64px-glyph_notepad.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/icons\/64\/ui-64px-glyph-1_database.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1374,6 +1434,16 @@
 		"miP": 0,
 		"oA": 1,
 		"oAP": "\/icons\/64\/ui-64px-glyph-2_menu-dots.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/icons\/64\/users-64px-glyph_multiple-11.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/icons\/64\/users-64px-glyph_multiple-11.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
