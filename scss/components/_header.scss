@@ -24,12 +24,13 @@
   font-family: $font-headline;
   font-weight: 400;
   font-size: 16px;
-  margin: 19.5px 16px 0 0;
+  margin: 12px 16px 0 0;
 }
 .header-nav__item {
   text-decoration: none;
   color: $medium-grey;
-}
-.header-nav__midpoint {
   padding: 0 10px;
+  &:hover {
+    color: $dark-grey;
+  }
 }
