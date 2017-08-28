@@ -4,6 +4,8 @@
 specimen_files/
 /webfonts/**/*.css
 /webfonts/**/*demo.html
+/kit/samples/
+
 # Created by https://www.gitignore.io/api/node,linux,macos,codekit,windows
 
 ### CodeKit ###
