@@ -101,8 +101,7 @@
           figure, figcaption, footer, header, hgroup,
           menu, nav, output, ruby, section, summary,
           time, mark, audio, video {
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
             border: 0;
@@ -139,21 +138,6 @@
           video {
             max-width: 100%; }
           
-          html::-moz-selection, body::-moz-selection, div::-moz-selection, span::-moz-selection, applet::-moz-selection, object::-moz-selection, iframe::-moz-selection,
-          h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, blockquote::-moz-selection, pre::-moz-selection,
-          a::-moz-selection, abbr::-moz-selection, acronym::-moz-selection, address::-moz-selection, big::-moz-selection, cite::-moz-selection, code::-moz-selection,
-          del::-moz-selection, dfn::-moz-selection, em::-moz-selection, img::-moz-selection, ins::-moz-selection, kbd::-moz-selection, q::-moz-selection, s::-moz-selection, samp::-moz-selection,
-          small::-moz-selection, strike::-moz-selection, strong::-moz-selection, sub::-moz-selection, sup::-moz-selection, tt::-moz-selection, var::-moz-selection,
-          b::-moz-selection, u::-moz-selection, i::-moz-selection, center::-moz-selection,
-          dl::-moz-selection, dt::-moz-selection, dd::-moz-selection, ol::-moz-selection, ul::-moz-selection, li::-moz-selection,
-          fieldset::-moz-selection, form::-moz-selection, label::-moz-selection, legend::-moz-selection,
-          table::-moz-selection, caption::-moz-selection, tbody::-moz-selection, tfoot::-moz-selection, thead::-moz-selection, tr::-moz-selection, th::-moz-selection, td::-moz-selection,
-          article::-moz-selection, aside::-moz-selection, canvas::-moz-selection, details::-moz-selection, embed::-moz-selection,
-          figure::-moz-selection, figcaption::-moz-selection, footer::-moz-selection, header::-moz-selection, hgroup::-moz-selection,
-          menu::-moz-selection, nav::-moz-selection, output::-moz-selection, ruby::-moz-selection, section::-moz-selection, summary::-moz-selection,
-          time::-moz-selection, mark::-moz-selection, audio::-moz-selection, video::-moz-selection, br::-moz-selection {
-            background: #FDD172; }
-          
           html::selection, body::selection, div::selection, span::selection, applet::selection, object::selection, iframe::selection,
           h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, blockquote::selection, pre::selection,
           a::selection, abbr::selection, acronym::selection, address::selection, big::selection, cite::selection, code::selection,
@@ -181,13 +165,8 @@
               display: none; } }
           
           .wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column;
+            flex-direction: column;
             min-height: 100vh; }
           
           .show-on-desktop {
@@ -199,15 +178,10 @@
             .show-on-desktop {
               display: block; }
             .wrapper {
-              -webkit-box-orient: horizontal;
-              -webkit-box-direction: normal;
-                  -ms-flex-direction: row;
-                      flex-direction: row; }
+              flex-direction: row; }
             .info,
             .categories {
-              -webkit-box-flex: 1;
-                  -ms-flex: 1 1 auto;
-                      flex: 1 1 auto; } }
+              flex: 1 1 auto; } }
           
           .border-top {
             border-top: 1.5px solid #E5E2DD; }
@@ -251,27 +225,15 @@
             background-color: #FFFFFF; }
           
           .sidebar-nav {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
+            flex-flow: column wrap;
             height: 100%; }
           
           .sidebar-nav__item {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
+            flex-flow: row wrap;
             text-decoration: none;
-            -webkit-box-flex: 0;
-                -ms-flex: 0 0 auto;
-                    flex: 0 0 auto;
+            flex: 0 0 auto;
             cursor: pointer; }
           
           .sidebar-nav__icon {
@@ -289,17 +251,13 @@
             line-height: normal; }
           
           .sidebar-nav__spacer {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 auto;
-                    flex: 1 1 auto; }
+            flex: 1 1 auto; }
           
           .sidebar-nav__text--centered {
             text-align: center; }
           
           .sidebar-nav__social {
-            -webkit-box-flex: 0;
-                -ms-flex: 0 0 auto;
-                    flex: 0 0 auto;
+            flex: 0 0 auto;
             margin-bottom: 20px; }
             .sidebar-nav__social .social__icon {
               border-color: transparent; }
@@ -308,16 +266,9 @@
           
           .header__innerwrapper {
             height: 55.5px;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row nowrap;
-                    flex-flow: row nowrap;
-            -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
-                    justify-content: space-between;
+            flex-flow: row nowrap;
+            justify-content: space-between;
             max-width: 620px;
             margin: 0 auto; }
           
@@ -333,13 +284,8 @@
             margin: 15.5px 16px; }
           
           .header-nav {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
+            flex-flow: row wrap;
             color: #64625F;
             font-family: "woodford_bourne", Helvetica, sans-serif;
             font-weight: 400;
@@ -364,8 +310,7 @@
               text-align: left; }
           
           .info__profile-pic {
-            -webkit-box-shadow: 0 4px 8px 0 rgba(12, 0, 51, 0.1);
-                    box-shadow: 0 4px 8px 0 rgba(12, 0, 51, 0.1);
+            box-shadow: 0 4px 8px 0 rgba(12, 0, 51, 0.1);
             width: 115px;
             height: 115px;
             display: inline-block;
@@ -391,36 +336,20 @@
             text-align: center; }
           
           .info__spacer {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 auto;
-                    flex: 1 1 auto; }
+            flex: 1 1 auto; }
           
           @media (min-width: 1200px) {
             .info {
-              display: -webkit-box;
-              display: -ms-flexbox;
               display: flex;
-              -webkit-box-orient: vertical;
-              -webkit-box-direction: normal;
-                  -ms-flex-direction: column;
-                      flex-direction: column; } }
+              flex-direction: column; } }
           
           .social {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center; }
+            flex-flow: row wrap;
+            justify-content: center; }
           
           .social__link {
-            -webkit-box-flex: 0;
-                -ms-flex: 0 0 auto;
-                    flex: 0 0 auto;
+            flex: 0 0 auto;
             margin: 0 12px;
             position: relative; }
           
@@ -430,7 +359,6 @@
             border: 1.5px solid #3D3B37;
             background-color: #FFFFFF; }
             .social__icon:hover {
-              -webkit-transition: background-color 0.3s ease;
               transition: background-color 0.3s ease;
               background-color: rgba(255, 255, 255, 0); }
           
@@ -453,30 +381,21 @@
             background-color: #FFFFFF;
             margin: 16px auto;
             border-radius: 3px;
-            -webkit-box-shadow: 0 24px 32px 0 rgba(12, 0, 51, 0.1);
-                    box-shadow: 0 24px 32px 0 rgba(12, 0, 51, 0.1);
+            box-shadow: 0 24px 32px 0 rgba(12, 0, 51, 0.1);
             max-width: 430px; }
           
           .card__title {
             padding: 15px 0 10px 30px; }
           
           .card__icons-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: row wrap;
-                    flex-flow: row wrap;
+            flex-flow: row wrap;
             padding: 16px;
-            -ms-flex-pack: distribute;
-                justify-content: space-around; }
+            justify-content: space-around; }
           
           .card__icon-container {
             cursor: pointer;
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 34%;
-                    flex: 1 1 34%;
+            flex: 1 1 34%;
             margin: 16px;
             text-align: center; }
             .card__icon-container:focus {
@@ -502,35 +421,21 @@
               margin: 40px auto;
               max-width: 590px; }
             .card__icon-container {
-              -webkit-box-flex: 1;
-                  -ms-flex: 1 1 15%;
-                      flex: 1 1 15%; } }
+              flex: 1 1 15%; } }
           
           @media (min-width: 1200px) {
             .categories__innerwrapper {
-              display: -webkit-box;
-              display: -ms-flexbox;
               display: flex;
-              -webkit-box-orient: vertical;
-              -webkit-box-direction: normal;
-                  -ms-flex-direction: column;
-                      flex-direction: column;
-              -webkit-box-pack: justify;
-                  -ms-flex-pack: justify;
-                      justify-content: space-between;
+              flex-direction: column;
+              justify-content: space-between;
               height: 100%; }
             .card {
               min-width: 590px;
               margin: 16px auto; } }
           
           .footer__innerwrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-flow: column wrap;
-                    flex-flow: column wrap;
+            flex-flow: column wrap;
             text-align: center;
             padding: 12px;
             max-width: 620px;
@@ -551,13 +456,8 @@
           
           @media (min-width: 620px) {
             .footer__innerwrapper {
-              -webkit-box-orient: horizontal;
-              -webkit-box-direction: normal;
-                  -ms-flex-flow: row wrap;
-                      flex-flow: row wrap;
-              -webkit-box-pack: justify;
-                  -ms-flex-pack: justify;
-                      justify-content: space-between;
+              flex-flow: row wrap;
+              justify-content: space-between;
               padding-bottom: 6px; } }
           
           .lightbox {
@@ -565,47 +465,29 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                    flex-direction: column; }
+            flex-direction: column; }
           
           .lightbox__close-wrapper,
           .lightbox__controls {
-            -webkit-box-flex: 0;
-                -ms-flex: 0 0 auto;
-                    flex: 0 0 auto; }
+            flex: 0 0 auto; }
           
           .lightbox__close-wrapper {
             cursor: pointer;
             min-height: 16px; }
           
           .lightbox__close-spacer {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 auto;
-                    flex: 1 1 auto;
+            flex: 1 1 auto;
             cursor: pointer;
             min-width: 16px; }
           
           .lightbox__content-wrapper {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 auto;
-                    flex: 1 1 auto;
-            display: -webkit-box;
-            display: -ms-flexbox;
+            flex: 1 1 auto;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row; }
+            flex-direction: row; }
           
           .lightbox__content {
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 100%;
-                    flex: 1 1 100%;
+            flex: 1 1 100%;
             overflow-y: scroll;
             background: linear-gradient(221.24deg, #FAE298 0%, #FFB64F 100%);
             margin: 16px;
@@ -632,19 +514,12 @@
             text-align: center; }
           
           .lightbox__subtitle-wrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row; }
+            flex-direction: row; }
           
           .lightbox__subtitle {
             margin: 15px 0 10px 0;
-            -webkit-box-flex: 1;
-                -ms-flex: 1 1 auto;
-                    flex: 1 1 auto; }
+            flex: 1 1 auto; }
           
           .lightbox__subtitle--no-icon {
             margin-left: 16px; }
@@ -652,13 +527,29 @@
           .lightbox__subicon {
             margin: 0 16px;
             width: 24px;
-            -webkit-box-flex: 0;
-                -ms-flex: 0 0 auto;
-                    flex: 0 0 auto; }
+            flex: 0 0 auto; }
           
           .lightbox__textwrapper {
             padding: 16px;
             padding-top: 0; }
+          
+          .lightbox__link {
+            color: #64625F;
+            text-decoration: none;
+            line-height: 100%;
+            display: inline-block; }
+            .lightbox__link:hover {
+              color: #3D3B37; }
+            .lightbox__link::after {
+              display: block;
+              content: '';
+              width: 100%;
+              height: 1.5px;
+              background-color: #64625F;
+              margin-top: 0.5px;
+              cursor: pointer; }
+            .lightbox__link:hover::after {
+              background-color: #3D3B37; }
           
           .lightbox__list {
             padding-left: 15px;
@@ -675,18 +566,10 @@
           
           .lightbox__controls {
             background-color: #64625F;
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-                -ms-flex-direction: row;
-                    flex-direction: row;
-            -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                    justify-content: center;
-            -webkit-box-shadow: inset 0px 6px 12px 0px rgba(61, 59, 55, 0.1);
-                    box-shadow: inset 0px 6px 12px 0px rgba(61, 59, 55, 0.1); }
+            flex-direction: row;
+            justify-content: center;
+            box-shadow: inset 0px 6px 12px 0px rgba(61, 59, 55, 0.1); }
           
           .lightbox__controls-icon {
             width: 32px; }
@@ -696,7 +579,6 @@
             padding: 16px 32px; }
             .lightbox__controls-button:hover {
               background-color: #3D3B37;
-              -webkit-transition: background-color 0.3s ease;
               transition: background-color 0.3s ease; }
           
           @media (min-width: 800px) {
@@ -714,6 +596,7 @@
             .lightbox__textwrapper {
               padding: 32px;
               padding-top: 0; } }
+          
           /*# sourceMappingURL=base.css.map */
         </style>
         
@@ -807,7 +690,7 @@
             <h2 class="card__title border-bottom">Skills</h2>
             <div class="card__icons-wrapper">
               <div class="card__icon-container"
-                on="tap:lb-skills"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -819,7 +702,7 @@
                 <h4 class="card__description">Front-End<br>Languages</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-skills"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -831,7 +714,7 @@
                 <h4 class="card__description">Back-End<br>Languages</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-skills"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -843,7 +726,7 @@
                 <h4 class="card__description">Design<br>Experience</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-skills"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -861,7 +744,7 @@
             <h2 class="card__title border-bottom">Projects</h2>
             <div class="card__icons-wrapper">
               <div class="card__icon-container"
-                on="tap:lb-freelance"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -873,7 +756,7 @@
                 <h4 class="card__description">Freelance<br>Work</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-upload-script"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -885,7 +768,7 @@
                 <h4 class="card__description">File Upload<br>Script</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-co-curricular"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -897,7 +780,7 @@
                 <h4 class="card__description">Co-curricular<br>Websites</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-passion-projects"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -915,7 +798,7 @@
             <h2 class="card__title border-bottom">Organizations</h2>
             <div class="card__icons-wrapper">
               <div class="card__icon-container"
-                on="tap:lb-inscape"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -927,7 +810,7 @@
                 <h4 class="card__description">Inscape<br>Magazine</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-chronicle"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -939,7 +822,7 @@
                 <h4 class="card__description">The<br>Chronicle</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-iron-yard"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -951,7 +834,7 @@
                 <h4 class="card__description">The<br>Iron Yard</h4>
               </div>
               <div class="card__icon-container"
-                on="tap:lb-cedc"
+                on="tap:lb-404"
                 role="button"
                 tabindex="0">
                 <amp-img
@@ -1064,280 +947,29 @@
     </amp-sidebar>
     
     <div class="lightboxes">
-      <amp-lightbox id="lb-cedc"
+      <amp-lightbox id="lb-404"
         layout="nodisplay">
         <div class="lightbox">
           <!-- Start Inside Lightbox -->
           <div class="lightbox__close-wrapper"
-            on="tap:lb-cedc.close"
+            on="tap:lb-404.close"
             role="button"
             tabindex="0">
           </div>
           <div class="lightbox__content-wrapper">
             <div class="lightbox__close-spacer"
-              on="tap:lb-cedc.close"
+              on="tap:lb-404.close"
               role="button"
               tabindex="0"></div>
             <div class="lightbox__content">
               <div class="lightbox__card lightbox__card--icon">
                 <amp-img
                   class="lightbox__icon"
-                  src="icons/64/users-64px-glyph_multiple-11.svg"
+                  src="icons/64/ui-64px-glyph-2_time-clock.svg"
                   width="64"
                   height="64"
                   layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Organizations</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <h2 class="lightbox__subtitle lightbox__subtitle--no-icon">CEDC</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-cedc.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-cedc.close,lb-iron-yard"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-cedc.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-cedc.close,lb-inscape"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-chronicle"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-chronicle.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-chronicle.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/users-64px-glyph_multiple-11.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Organizations</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <h2 class="lightbox__subtitle lightbox__subtitle--no-icon">The Chronicle</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-chronicle.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-chronicle.close,lb-inscape"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-chronicle.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-chronicle.close,lb-iron-yard"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-co-curricular"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-co-curricular.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-co-curricular.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/education-64px-glyph_notepad.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Projects</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/design-24px-glyph_tablet-mobile.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Co-curricular Websites</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-co-curricular.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-co-curricular.close,lb-upload-script"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-co-curricular.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-co-curricular.close,lb-passion-projects"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-freelance"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-freelance.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-freelance.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/education-64px-glyph_notepad.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Projects</h2>
+                <h2 class="lightbox__title border-top">Coming Soon</h2>
               </div>
               <!-- Description Start -->
               <div class="lightbox__card">
@@ -1348,44 +980,27 @@
                     width="64"
                     height="64"
                     layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Freelance Work</h2>
+                  <h2 class="lightbox__subtitle">Welcome</h2>
                 </div>
                 <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                </div>
-              </div>
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/travel-24px-glyph_church.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">NAM Convention</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
+                  <p>Thank you so much for coming to my portfolio site!</p>
+                  <p>It has been a busy week putting this landing page all together. From designing these pages in in Sketch, to organizing and debugging the code, my portfolio has come a long way from naught.</p>
+                  <p>I would love to share my projects and passions, but I have not yet has the time to put it all into words. If you would like to know when this site is ready, feel free to <a class="lightbox__link" href="mailto:jlarmst@g.clemson.edu?subject=Portfolio&body=Hi Jake,
+      Nice to meet you!  I would be glad to see your finished portfolio site; keep me posted on your progress!">email</a> me, and I will be sure to keep in touch.</p>
+                  <p>Thank you for stopping by!  I hope you have a fantastic day.</p>
+                  <p>Best,<br>Jake Armstrong</p>
                 </div>
               </div>
               <!-- Description End -->
             </div>
             <div class="lightbox__close-spacer"
-              on="tap:lb-freelance.close"
+              on="tap:lb-404.close"
               role="button"
               tabindex="0"></div>
           </div>
           <div class="lightbox__controls">
             <div class="lightbox__controls-button"
-              on="tap:lb-freelance.close,lb-passion-projects"
+              on="tap:lb-404.close,lb-404"
               role="button"
               tabindex="0">
               <amp-img
@@ -1396,7 +1011,7 @@
                 layout="responsive"></amp-img>
             </div>
             <div class="lightbox__controls-button"
-              on="tap:lb-freelance.close"
+              on="tap:lb-404.close"
               role="button"
               tabindex="0">
               <amp-img
@@ -1407,575 +1022,7 @@
                 layout="responsive"></amp-img>
             </div>
             <div class="lightbox__controls-button"
-              on="tap:lb-freelance.close,lb-upload-script"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-inscape"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-inscape.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-inscape.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/users-64px-glyph_multiple-11.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Organizations</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <h2 class="lightbox__subtitle lightbox__subtitle--no-icon">Inscape Magazine</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-inscape.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-inscape.close,lb-cedc"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-inscape.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-inscape.close,lb-chronicle"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-iron-yard"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-iron-yard.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-iron-yard.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/users-64px-glyph_multiple-11.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Organizations</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <h2 class="lightbox__subtitle lightbox__subtitle--no-icon">The Iron Yard</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-iron-yard.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-iron-yard.close,lb-chronicle"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-iron-yard.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-iron-yard.close,lb-cedc"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-passion-projects"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-passion-projects.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-passion-projects.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/education-64px-glyph_notepad.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Projects</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/education-24px-glyph_book-bookmark.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Reading and Learning</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/text-24px-glyph_tracking.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Typography</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/ui-24px-glyph-1_edit-74.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Doodling</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-passion-projects.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-passion-projects.close,lb-co-curricular"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-passion-projects.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-passion-projects.close,lb-freelance"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-skills"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-skills.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-skills.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/business-64px-glyph_goal-64.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Skills</h2>
-              </div>
-              <!-- Desctiption Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/design-24px-glyph_window-dev.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Front-End Development</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">HTML</span>
-                      <li>Tags, attributes, and general knowledge</li>
-                      <li>Semantic Tags</li>
-                      <li>Accessibility</li>
-                      <li>Google AMP</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">CSS</span>
-                      <li>Styling HTML via elements, classes, ids, etc.</li>
-                      <li>Pseudo classes, advanced CSS selecting techniques</li>
-                      <li>Libraries, such as Materialize and Bootstrap</li>
-                      <li>Methodologies, such as BEM and Atomic Styling</li>
-                      <li>Preprocessors, such as SASS</li>
-                      <li>Postprocessors, such as autoprefixer</li>
-                      <li>Fallbacks and browser compatibility</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">JS</span>
-                      <li>Vanilla JS</li>
-                      <li>Custom scripts and functionality</li>
-                      <li>Babel and Modernizr for backwards compatibility</li>
-                      <li>Unit Testing with Mocha, Chai, and SuperTester</li>
-                      <li>CORS and Web Security</li>
-                      <li>Google Apps Scripts and Google API’s</li>
-                      <li>jQuery Plugins</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/ui-24px-glyph-1_database.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Back-End Development</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>In the summer of my sophomore year of college, I had the opportunity to dive deeply into full-stack web development. I am currently learning and practicing my programming knowledge in Node.js and Java:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">Concepts</span>
-                      <li>Version Control with git and GitHub</li>
-                      <li>Using the Command Line with git and Bash</li>
-                      <li>MVC Frameworks</li>
-                      <li>Relational SQL Databases, such as postgresql</li>
-                      <li>Non-relational NoSQL Databases, such as MongoDB and Redis</li>
-                      <li>Templating Systems, such as mustache.js, handlebars.js, and Java Thymeleaf</li>
-                      <li>API Structures and Querying Database</li>
-                      <li>Security, such as properly storing passwords</li>
-                      <li>Deploying applications</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">Node.js</span>
-                      <li>Package Managers, such as NPM and Yarn</li>
-                      <li>Writing command line utilities</li>
-                      <li>Web Frameworks, such as ExpressJS</li>
-                      <li>Setting up API endpoints</li>
-                      <li>Utilizing a SQL Database with sequelize.js</li>
-                      <li>Utilizing a NoSQL Database with MongoDB, Mongoose, and Bluebird</li>
-                      <li>Utilizing a Key and Value store with Redis</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">Java</span>
-                      <li>Using an Integrated Developing Environment, such as intellij</li>
-                      <li>Learning about strictly typed languages</li>
-                      <li>Web Frameworks, such as Java Spring</li>
-                      <li>Setting up API endpoints</li>
-                      <li>Utilizing a SQL Database with JQL</li>
-                    </ul>
-                </div>
-              </div>
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/ui-24px-glyph-1_database.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">Design Experience</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>I first began designing in my sophomore year of high school, by working on student publications.  Over the years, I have practiced both print and web design, and continue to enjoy and learn.</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">Print Publications</span>
-                      <li>Editor-in-Chief of my High School’s Literary Magazine, which consisted of 40 full-color pages and was sent to over 2,000 school families.</li>
-                      <li>Editor-in-Chief of my High School's Newspaper, which consisted of many editions in the school year and school-wide distribution.</li>
-                      <li>In charge of the layout for an 120+ page ad booklet for a church convention, and was the key point of contact with the printer.</li>
-                      <li>Two years of study in Graphic Communications, learning both design and technical press details.</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">Web Design</span>
-                      <li>Web Master for my previous High School’s Literary Magazine</li>
-                      <li>Familierity with moodboards, wireframes, and mockups</li>
-                      <li>Creation of this portfolio site</li>
-                    </ul>
-                    <!-- <ul class="lightbox__list"><span class="lightbox__list-title">Design Concepts</span>
-                      <li></li>
-                    </ul> -->
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-skills.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <!-- <div class="lightbox__controls-button"
-              on="tap:lb-skills.close">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div> -->
-            <div class="lightbox__controls-button"
-              on="tap:lb-skills.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <!-- <div class="lightbox__controls-button"
-              on="tap:lb-skills.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-right.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div> -->
-          </div>
-          <!-- End Inside Lightbox -->
-        </div>
-      </amp-lightbox>
-      
-      <amp-lightbox id="lb-upload-script"
-        layout="nodisplay">
-        <div class="lightbox">
-          <!-- Start Inside Lightbox -->
-          <div class="lightbox__close-wrapper"
-            on="tap:lb-upload-script.close"
-            role="button"
-            tabindex="0">
-          </div>
-          <div class="lightbox__content-wrapper">
-            <div class="lightbox__close-spacer"
-              on="tap:lb-upload-script.close"
-              role="button"
-              tabindex="0"></div>
-            <div class="lightbox__content">
-              <div class="lightbox__card lightbox__card--icon">
-                <amp-img
-                  class="lightbox__icon"
-                  src="icons/64/education-64px-glyph_notepad.svg"
-                  width="64"
-                  height="64"
-                  layout="responsive"></amp-img>
-                <h2 class="lightbox__title border-top">Projects</h2>
-              </div>
-              <!-- Description Start -->
-              <div class="lightbox__card">
-                <div class="lightbox__subtitle-wrapper border-bottom">
-                  <amp-img
-                    class="lightbox__subicon"
-                    src="icons/24/arrows-24px-glyph-1_share-66.svg"
-                    width="64"
-                    height="64"
-                    layout="responsive"></amp-img>
-                  <h2 class="lightbox__subtitle">File Upload Script</h2>
-                </div>
-                <div class="lightbox__textwrapper">
-                  <p>Ever since my senior year of high school, I have been learning front-end web development. Through self-teaching, practice, and an occasional class, I have learned the building blocks of the web: the structure of HTML, the styling of CSS, and the interactivity of JS. Specifically, I am familiar with:</p>
-                  <ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                    <ul class="lightbox__list"><span class="lightbox__list-title">List Title</span>
-                      <li>List Item</li>
-                    </ul>
-                  </ul>
-                </div>
-              </div>
-              <!-- Description End -->
-            </div>
-            <div class="lightbox__close-spacer"
-              on="tap:lb-upload-script.close"
-              role="button"
-              tabindex="0"></div>
-          </div>
-          <div class="lightbox__controls">
-            <div class="lightbox__controls-button"
-              on="tap:lb-upload-script.close,lb-freelance"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/arrows-32px-glyph-1_bold-left.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-upload-script.close"
-              role="button"
-              tabindex="0">
-              <amp-img
-                class="lightbox__controls-icon"
-                src="icons/32/ui-32px-glyph-1_bold-remove.svg"
-                width="64"
-                height="64"
-                layout="responsive"></amp-img>
-            </div>
-            <div class="lightbox__controls-button"
-              on="tap:lb-upload-script.close,lb-co-curricular"
+              on="tap:lb-404.close,lb-404"
               role="button"
               tabindex="0">
               <amp-img
